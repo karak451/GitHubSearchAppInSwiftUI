@@ -11,5 +11,7 @@ Az app két képernyőből áll:
 <b>b) ReszletezesView</b> - itt lehet az egyes repository találatokat megnézni valamivel részletesebben
 
 <h1>Képernyőképek</h1>
-<img src="https://drive.google.com/file/d/1BsCU7-KRwdCjKOlt05WqAA2M9KS74TNz/view?usp=drive_link">
-<img src="https://drive.google.com/file/d/1cqwg6q2zgTwNt-lttlcOMsjiWWe7_Zp5/view?usp=drive_link">
+<div style="width: 100%;">
+<img src="https://azatlasz.hu/appok/img/githubsearch_kereso.png" style="width: 45%;">
+<img src="https://azatlasz.hu/appok/img/githubsearch_reszletezo.png" style="width: 45%;">
+</div>
