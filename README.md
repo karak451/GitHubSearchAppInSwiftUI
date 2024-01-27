@@ -9,3 +9,5 @@ Az app két képernyőből áll:
 <b>b) ReszletezesView</b> - itt lehet az egyes repository találatokat megnézni valamivel részletesebben
 
 <h1>Képernyőképek</h1>
+![Kereső képernyő](https://drive.google.com/file/d/1BsCU7-KRwdCjKOlt05WqAA2M9KS74TNz/view?usp=drive_link)
+![Részletező képernyő](https://drive.google.com/file/d/1cqwg6q2zgTwNt-lttlcOMsjiWWe7_Zp5/view?usp=drive_link)
