@@ -43,7 +43,7 @@ struct DatumCsillagFork: View{
                         .font(.body)
                         .fontWeight(.bold)
                 }
-                
+                Spacer().frame(width: 20)
                 HStack(alignment: .center){
                     Image(systemName: "tuningfork")
                         .resizable()

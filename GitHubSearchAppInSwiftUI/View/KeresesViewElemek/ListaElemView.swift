@@ -20,6 +20,7 @@ struct ListaElemView: View{
                     .resizable()
                     .scaledToFit()
                     .frame(width: 20, height: 20)
+                    .foregroundColor(.white)
                 Text(String(kvm.talalatiLista[index].stargazers_count))
                     .foregroundColor(Color("sotetSzurke"))
                     .font(.footnote)
@@ -36,6 +37,8 @@ struct ListaElemView: View{
                 Text(kvm.talalatiLista[index].description ?? "(nincs leírás)")
                     .font(.body)
                     .foregroundColor(Color("sotetSzurke"))
+                    .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
+                    .multilineTextAlignment(.leading)
                 HStack{
                     Text("legutóbb módosítva:")
                         .font(.footnote)
@@ -47,7 +50,7 @@ struct ListaElemView: View{
                         .foregroundColor(Color("sotetSzurke"))
                 }
                 
-            }.frame(width: width*0.8)
+            }.frame(width: width*0.8, alignment: .leading)
             
         }
         .padding(5)

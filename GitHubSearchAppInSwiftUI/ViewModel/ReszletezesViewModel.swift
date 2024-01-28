@@ -19,7 +19,7 @@ class ReszletezesViewModel: ObservableObject{
     
     @MainActor func fetchRepositoryDetails() async throws{
         let urlString = self.repoURL
-        
+        print("url string: \(urlString)")
         WebServiceManager.shared.getData(endpoint: urlString, type: RepositoryReszletes.self)
             .sink{ completion in
                 switch completion{
